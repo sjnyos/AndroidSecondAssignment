@@ -39,16 +39,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        dl = (DrawerLayout)findViewById(R.id.activity_main);
-        t = new ActionBarDrawerToggle(this, dl,R.string.Open, R.string.Close);
+        dl = findViewById(R.id.activity_main);
+        t = new ActionBarDrawerToggle(this, dl,R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        t.setDrawerIndicatorEnabled(true);
 
         dl.addDrawerListener(t);
         t.syncState();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-
-
-
-        nv = (NavigationView)findViewById(R.id.nv);
+        nv = findViewById(R.id.nv);
         nv.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
