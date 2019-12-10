@@ -48,7 +48,7 @@ public class AreaofCircleFragment extends Fragment {
                 else {
                     int radius  = Integer.parseInt(etRadius.getText().toString()) ;
                     Arithmetica algorithm= new Arithmetica();
-                    tvAreaResult.setText( Integer.toString(algorithm.areaOFCircle(radius)) );
+                    tvAreaResult.setText( "Area of Circle is "+Integer.toString(algorithm.areaOFCircle(radius)) );
 
 
                 }

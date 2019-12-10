@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout dl;
     private ActionBarDrawerToggle t;
     private NavigationView nv;
+    private TextView tv_textnames;
 
     @SuppressLint("RestrictedApi")
     @Override
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        tv_textnames = findViewById(R.id.tv_textnames);
         dl = findViewById(R.id.activity_main);
         t = new ActionBarDrawerToggle(this, dl,R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         t.setDrawerIndicatorEnabled(true);
@@ -60,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 switch(id)
                 {
                     case R.id.areofCircle: {
+                        tv_textnames.setText("Area of Circle");
                         AreaofCircleFragment areaofCircleFragment = new AreaofCircleFragment();
                         fragmentTransaction.replace(R.id.fragementContainer, areaofCircleFragment);
                         fragmentTransaction.addToBackStack(null);
@@ -67,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case R.id.palindrome:{
+                        tv_textnames.setText("Check if Palindrome");
                         PalindromeFragment palindromeFragment = new PalindromeFragment();
                         fragmentTransaction.replace(R.id.fragementContainer, palindromeFragment);
                         fragmentTransaction.addToBackStack(null);
@@ -75,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                     case R.id.swapno:{
+                        tv_textnames.setText("Swap two Numbers");
                         SwapnoFragment swapnoFragment = new SwapnoFragment();
                         fragmentTransaction.replace(R.id.fragementContainer, swapnoFragment);
                         fragmentTransaction.addToBackStack(null);
@@ -82,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case R.id.automorphic: {
+                        tv_textnames.setText("Check if Automorphic");
                         AutomorphicFragment automorphicFragment = new AutomorphicFragment();
                         fragmentTransaction.replace(R.id.fragementContainer, automorphicFragment);
                         fragmentTransaction.addToBackStack(null);

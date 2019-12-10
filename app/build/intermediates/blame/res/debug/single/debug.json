@@ -8,24 +8,24 @@
         "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/build/intermediates/res/merged/debug/drawable_ic_menu_slideshow.xml.flat",
-        "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/drawable/ic_menu_slideshow.xml"
-    },
-    {
         "merged": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/build/intermediates/res/merged/debug/drawable_ic_menu_gallery.xml.flat",
         "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/build/intermediates/res/merged/debug/drawable_ic_menu_slideshow.xml.flat",
+        "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/drawable/ic_menu_slideshow.xml"
     },
     {
         "merged": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/build/intermediates/res/merged/debug/drawable_side_nav_bar.xml.flat",
         "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/build/intermediates/res/merged/debug/layout_nav_header.xml.flat",
