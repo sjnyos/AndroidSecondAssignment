@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
+            "outputFile": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
             "map": [
                 {
                     "source": "/home/sdjkr/.gradle/caches/transforms-2/files-2.1/27db08228490f26b85dcb84d41bbe631/jetified-navigation-ui-2.0.0/res/values-ms/values-ms.xml",

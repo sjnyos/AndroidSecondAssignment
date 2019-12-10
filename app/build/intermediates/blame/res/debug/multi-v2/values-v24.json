@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/home/sdjkr/.gradle/caches/transforms-2/files-2.1/b633d4d77513b3fc86a8d53663def9cc/media-1.0.0/res/values-v24/values-v24.xml",

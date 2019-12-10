@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/sdjkr/.gradle/caches/transforms-2/files-2.1/27db08228490f26b85dcb84d41bbe631/jetified-navigation-ui-2.0.0/res/values/values.xml",
@@ -56,23 +56,6 @@
                         "endLines": "4406,4412,4416,4419,4431",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "282667,282911,283064,283197,284194"
-                    }
-                },
-                {
-                    "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "9,8,7,1,12,6,5,4,3,2",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "508,470,417,16,607,355,280,220,144,70",
-                        "endColumns": "39,37,52,53,69,61,74,59,75,73",
-                        "endOffsets": "543,503,465,65,672,412,350,275,215,139"
-                    },
-                    "to": {
-                        "startLines": "579,580,608,609,616,621,622,623,624,625",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "34273,34313,36217,36270,37110,37577,37639,37714,37774,37850",
-                        "endColumns": "39,37,52,53,69,61,74,59,75,73",
-                        "endOffsets": "34308,34346,36265,36319,37175,37634,37709,37769,37845,37919"
                     }
                 },
                 {
@@ -148,22 +131,20 @@
                     }
                 },
                 {
-                    "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/app/src/main/res/values/styles.xml",
+                    "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "3,15,10,17",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "54,525,374,617",
-                        "endLines": "8,15,13,17",
-                        "endColumns": "12,90,12,80",
-                        "endOffsets": "368,611,519,693"
+                        "startLines": "9,8,7,1,12,6,5,4,3,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "508,470,417,16,607,355,280,220,144,70",
+                        "endColumns": "39,37,52,53,69,61,74,59,75,73",
+                        "endOffsets": "543,503,465,65,672,412,350,275,215,139"
                     },
                     "to": {
-                        "startLines": "642,648,649,653",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "39569,39888,39978,40128",
-                        "endLines": "647,648,652,653",
-                        "endColumns": "12,89,12,79",
-                        "endOffsets": "39883,39973,40123,40203"
+                        "startLines": "579,580,608,609,616,621,622,623,624,625",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "34273,34313,36217,36270,37110,37577,37639,37714,37774,37850",
+                        "endColumns": "39,37,52,53,69,61,74,59,75,73",
+                        "endOffsets": "34308,34346,36265,36319,37175,37634,37709,37769,37845,37919"
                     }
                 },
                 {
@@ -221,6 +202,25 @@
                         "endLines": "3182,3189,3200,4555,4560",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "207328,207713,208310,291446,291716"
+                    }
+                },
+                {
+                    "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,15,10,17",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "54,525,374,617",
+                        "endLines": "8,15,13,17",
+                        "endColumns": "12,90,12,80",
+                        "endOffsets": "368,611,519,693"
+                    },
+                    "to": {
+                        "startLines": "642,648,649,653",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "39569,39888,39978,40128",
+                        "endLines": "647,648,652,653",
+                        "endColumns": "12,89,12,79",
+                        "endOffsets": "39883,39973,40123,40203"
                     }
                 },
                 {
@@ -300,24 +300,7 @@
                     }
                 },
                 {
-                    "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "4,2,3,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "153,55,102,199",
-                        "endColumns": "45,46,50,44",
-                        "endOffsets": "194,97,148,239"
-                    },
-                    "to": {
-                        "startLines": "192,193,194,195",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "9973,10019,10066,10117",
-                        "endColumns": "45,46,50,44",
-                        "endOffsets": "10014,10061,10112,10157"
-                    }
-                },
-                {
-                    "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/app/src/main/res/values/dimens.xml",
+                    "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/values/dimens.xml",
                     "from": {
                         "startLines": "2,3,6,5,4",
                         "startColumns": "4,4,4,4,4",
@@ -331,6 +314,23 @@
                         "startOffsets": "19769,19827,23518,27407,27457",
                         "endColumns": "57,55,41,49,57",
                         "endOffsets": "19822,19878,23555,27452,27510"
+                    }
+                },
+                {
+                    "source": "/home/sdjkr/AndroidStudioProjects/SecondAssignment/AndroidSecondAssignment/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "153,55,102,199",
+                        "endColumns": "45,46,50,44",
+                        "endOffsets": "194,97,148,239"
+                    },
+                    "to": {
+                        "startLines": "192,193,194,195",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "9973,10019,10066,10117",
+                        "endColumns": "45,46,50,44",
+                        "endOffsets": "10014,10061,10112,10157"
                     }
                 }
             ]
