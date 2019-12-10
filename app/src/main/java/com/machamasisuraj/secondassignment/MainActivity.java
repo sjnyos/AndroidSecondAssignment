@@ -17,6 +17,7 @@ import com.machamasisuraj.secondassignment.fragements.SwapnoFragment;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.core.view.GravityCompat;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
                 int id = item.getItemId();
+                dl.closeDrawer(GravityCompat.START);
                 switch(id)
                 {
                     case R.id.areofCircle: {
